@@ -3,10 +3,43 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PageLoginComponent } from './pages/page-login/page-login.component';
+import { PageInscriptionComponent } from './pages/page-inscription/page-inscription.component';
+import { PageDashboardComponent } from './pages/page-dashboard/page-dashboard.component';
+import { PageStatistiquesComponent } from './pages/page-statistiques/page-statistiques.component';
+import { MenuComponent } from './composants/menu/menu.component';
+import { HeaderComponent } from './composants/header/header.component';
+import { FooterComponent } from './composants/footer/footer.component';
+import { PageArticleComponent } from './pages/articles/page-article/page-article.component';
+import { DetailArticleComponent } from './composants/detail-article/detail-article.component';
+import { PaginationComponent } from './composants/pagination/pagination.component';
+import { ButtonActionComponent } from './composants/button-action/button-action.component';
+import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-article.component';
+import { PageMvtStoqueComponent } from './pages/mvt-stoque/page-mvt-stoque/page-mvt-stoque.component';
+
+import { DetailMvtStockArticleComponent } from './composants/detail-mvt-stock-article/detail-mvt-stock-article.component';
+import { DetailMvtStockComponent } from './composants/detail-mvt-stock/detail-mvt-stock.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageLoginComponent,
+    PageInscriptionComponent,
+    PageDashboardComponent,
+    PageStatistiquesComponent,
+    MenuComponent,
+    HeaderComponent,
+    FooterComponent,
+    PageArticleComponent,
+
+    DetailArticleComponent,
+    PaginationComponent,
+    ButtonActionComponent,
+    NouvelArticleComponent,
+    PageMvtStoqueComponent,
+    DetailMvtStockArticleComponent,
+    DetailMvtStockComponent,
+
   ],
   imports: [
     BrowserModule,
