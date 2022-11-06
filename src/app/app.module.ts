@@ -26,6 +26,13 @@ import { NouveauClientFournisseurComponent } from './composants/nouveau-client-f
 import { DetailCmdClientFournisseurComponent } from './composants/detail-cmd-client-fournisseur/detail-cmd-client-fournisseur.component';
 import { DetailCmdComponent } from './composants/detail-cmd/detail-cmd.component';
 import { PageCmdClientFournisseurComponent } from './pages/page-cmd-client-fournisseur/page-cmd-client-fournisseur.component';
+import { PageCategorieComponent } from './pages/categories/page-categorie/page-categorie.component';
+import { NouvelleCategorieComponent } from './pages/categories/nouvelle-categorie/nouvelle-categorie.component';
+import { PageUtilisateurComponent } from './pages/utilisateur/page-utilisateur/page-utilisateur.component';
+import { DetailUtilisateurComponent } from './composants/detail-utilisateur/detail-utilisateur.component';
+import { NouvelUtilisateurComponent } from './pages/utilisateur/nouvel-utilisateur/nouvel-utilisateur.component';
+import { PageProfilComponent } from './pages/profil/page-profil/page-profil.component';
+import { ChangerMotPasseComponent } from './pages/profil/changer-mot-passe/changer-mot-passe.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +60,13 @@ import { PageCmdClientFournisseurComponent } from './pages/page-cmd-client-fourn
     DetailCmdClientFournisseurComponent,
     DetailCmdComponent,
     PageCmdClientFournisseurComponent,
+    PageCategorieComponent,
+    NouvelleCategorieComponent,
+    PageUtilisateurComponent,
+    DetailUtilisateurComponent,
+    NouvelUtilisateurComponent,
+    PageProfilComponent,
+    ChangerMotPasseComponent,
 
   ],
   imports: [
