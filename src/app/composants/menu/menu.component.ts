@@ -63,13 +63,13 @@ export class MenuComponent implements OnInit {
             id:'31',
             titre:"Clients",
             icon:'fa-solid fa-users',
-            url:'',
+            url:'client',
           },
           {
             id:'32',
             titre:"Commandes Client",
             icon:'fa-solid fa-arrow-down-up-across-line',
-            url:'',
+            url:'commande-client',
           }
         ]
       },
@@ -84,13 +84,13 @@ export class MenuComponent implements OnInit {
             id:'41',
             titre:"Fournisseurs",
             icon:'fa-solid fa-truck-field',
-            url:'',
+            url:'fournisseur',
           },
           {
             id:'42',
             titre:"Commandes Fournisseurs",
             icon:'fa-solid fa-boxes-packing',
-            url:'',
+            url:'commande-fournisseur',
           }
         ]
       },

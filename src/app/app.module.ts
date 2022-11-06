@@ -19,6 +19,13 @@ import { PageMvtStoqueComponent } from './pages/mvt-stoque/page-mvt-stoque/page-
 
 import { DetailMvtStockArticleComponent } from './composants/detail-mvt-stock-article/detail-mvt-stock-article.component';
 import { DetailMvtStockComponent } from './composants/detail-mvt-stock/detail-mvt-stock.component';
+import { DetailClientFournisseurComponent } from './composants/detail-client-fournisseur/detail-client-fournisseur.component';
+import { PageClientsComponent } from './pages/clients/page-clients/page-clients.component';
+import { PageFournisseurComponent } from './pages/founisseurs/page-fournisseur/page-fournisseur.component';
+import { NouveauClientFournisseurComponent } from './composants/nouveau-client-fournisseur/nouveau-client-fournisseur.component';
+import { DetailCmdClientFournisseurComponent } from './composants/detail-cmd-client-fournisseur/detail-cmd-client-fournisseur.component';
+import { DetailCmdComponent } from './composants/detail-cmd/detail-cmd.component';
+import { PageCmdClientFournisseurComponent } from './pages/page-cmd-client-fournisseur/page-cmd-client-fournisseur.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +46,13 @@ import { DetailMvtStockComponent } from './composants/detail-mvt-stock/detail-mv
     PageMvtStoqueComponent,
     DetailMvtStockArticleComponent,
     DetailMvtStockComponent,
+    DetailClientFournisseurComponent,
+    PageClientsComponent,
+    PageFournisseurComponent,
+    NouveauClientFournisseurComponent,
+    DetailCmdClientFournisseurComponent,
+    DetailCmdComponent,
+    PageCmdClientFournisseurComponent,
 
   ],
   imports: [
