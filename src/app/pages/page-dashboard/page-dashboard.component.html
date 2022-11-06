@@ -1,0 +1,36 @@
+<div class="main-container">
+  <div class="row myMin-height-600 myNo-flex-wrap">
+<!--    sidebar-->
+    <div class="card col-md-2 me-2">
+     <div class="col">
+       <div class="mt-4 text-center">
+         <h5 class="text-uppercase" style="font-family:Algerian,Roboto Black; font-weight: bold; color:darkblue" >
+           Gestion de Stock<br> v2.0
+         </h5>
+       </div>
+       <div class="mt-4 ms-1">
+         <app-menu></app-menu>
+       </div>
+     </div>
+    </div>
+<!--    content-->
+
+    <div class="card col-md-10 ps-0 pe-0 myBackground-grey myBorder-none">
+      <div class="col d-flex flex-column justify-content-between">
+        <div class="card myMin-height-80 mb-2 p-3">
+          <app-header></app-header>
+        </div>
+        <div class="card" style="min-height: 440px">
+
+          <router-outlet></router-outlet>
+        </div>
+        <div class="card myMin-height-80 mt-2" style="background-color: grey">
+          <app-footer></app-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
